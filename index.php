@@ -27,10 +27,10 @@ Email <input type="text" name="email" id="email"/></br>
 // DB connection info
 //TODO: Update the values for $host, $user, $pwd, and $db
 //using the values you retrieved earlier from the Azure Portal.
-$host = "value of Data Source";
-$user = "value of User Id";
-$pwd = "value of Password";
-$db = "value of Database";
+$host = "127.0.0.1:55256";
+$user = "azure";
+$pwd = "6#vWHD_$";
+$db = "localdb";
 // Connect to database.
 try {
 $conn = new PDO( "mysql:host=$host;dbname=$db", $user, $pwd);
